@@ -10,7 +10,7 @@ class Header extends Component {
             case null:
                 return;
             case false:
-                return <li><a href="/auth/google">Login With Google</a></li>;
+                return <li><a className="btn" href="/auth/google">Login</a></li>;
             default:
             return [
                 <li key="1"><Payments /></li>,
@@ -29,7 +29,7 @@ class Header extends Component {
                         className="left brand-logo"
                         style={{marginLeft: '10px'}}
                     >
-                        Emaily
+                        FF Power Ranker
                     </Link>
                     <ul className="right">
                         {this.renderContent()}

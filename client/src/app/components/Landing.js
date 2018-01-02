@@ -7,9 +7,12 @@ class Landing extends Component {
         return (
             <div style={{textAlign:'center'}}>
                 <h1>
-                    Emaily
+                    Fantasy Football Power Ranker
                 </h1>
-                Collect feedback from your users
+                <div>
+                    Input ESPN League ID
+                </div>
+                <input className="browser-default mt-2" type="text"/>
             </div>
         );
     }
